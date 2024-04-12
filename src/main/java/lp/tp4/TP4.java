@@ -96,7 +96,7 @@ public class TP4 extends javax.swing.JFrame {
         
          int num = Integer.parseInt(jTIngresar.getText());
          num=num* 9/5 + 32;
-        
+        //sebastian
         
     }//GEN-LAST:event_jBEnviarActionPerformed
 
