@@ -93,7 +93,11 @@ public class TP4 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jBEnviarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBEnviarActionPerformed
-        // TODO add your handling code here:
+        
+         int num = Integer.parseInt(jTIngresar.getText());
+         num=num* 9/5 + 32;
+        
+        
     }//GEN-LAST:event_jBEnviarActionPerformed
 
     private void jBLimpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBLimpiarActionPerformed
